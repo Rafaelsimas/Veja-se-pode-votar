@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(green, yellow);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 349px;
+}
+
+#nome {
+    padding: 6px 0;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+#sobrenome {
+    padding: 6px 0;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+#data {
+    padding: 6px 0;
+    margin-bottom: 8px;
+    text-align: center;
+    width: 159px;
+}
+
+#btn1 {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 4px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 8px 8px;
+    margin-top: 5px;
+}
